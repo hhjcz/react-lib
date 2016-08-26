@@ -3,6 +3,7 @@ import MyAutoComplete from './MyAutoComplete'
 import MyCheckbox from './MyCheckbox'
 import MyDraggable from './MyDraggable'
 import MyIcon from './MyIcon'
+import MyToggle from './MyToggle'
 import Tabulka from './tabulka/index'
 
 export {
@@ -10,5 +11,6 @@ export {
   MyCheckbox,
   MyDraggable,
   MyIcon,
+  MyToggle,
   Tabulka,
 }

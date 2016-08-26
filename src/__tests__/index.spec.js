@@ -10,6 +10,7 @@ describe('index', () => {
     expect(Object.getPrototypeOf(components.MyCheckbox)).to.equal(React.Component)
     expect(Object.getPrototypeOf(components.MyDraggable)).to.equal(React.Component)
     expect(Object.getPrototypeOf(components.MyIcon)).to.equal(React.Component)
+    expect(Object.getPrototypeOf(components.MyToggle)).to.equal(React.Component)
     expect(Object.getPrototypeOf(components.Tabulka)).to.equal(React.Component)
   })
 
