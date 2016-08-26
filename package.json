@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/hhjcz/react-lib#readme",
   "dependencies": {
+    "@hhjcz/js-lib": "^1.0.0",
     "immutable": "^3.8.1",
     "lodash": "^4.15.0",
     "material-ui": "^0.15.4",

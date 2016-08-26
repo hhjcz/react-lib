@@ -4,8 +4,6 @@ import { expect } from 'chai'
 import sinon from 'sinon'
 import React from 'react'
 import sd from 'skin-deep'
-
-import { Filter } from '../../Filter'
 import HeaderFilter from '../HeaderFilter'
 
 describe('lib tabulka HeaderFilter component', () => {
@@ -28,9 +26,7 @@ describe('lib tabulka HeaderFilter component', () => {
   it('should call filter change callback', () => {
     tree.fillField('#filterInput', 'someFilterValue')
     expect(spyOnChange).to.have.been.calledOnce
-    expect(spyOnChange).to.have.been.calledWith(new Filter({
-      name: 'someColumn', value: 'someFilterValue'
-    }))
+    expect(spyOnChange).to.have.been.calledWith({ name: 'someColumn', value: 'someFilterValue' })
   })
 
 })

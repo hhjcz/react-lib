@@ -1,8 +1,7 @@
 /** Created by hhj on 1/21/16. */
 import React, { PropTypes } from 'react'
 import { FormGroup, FormControl } from 'react-bootstrap'
-import { Filter } from '../Filter'
-import debounce from '../debounce'
+import debounce from '@hhjcz/js-lib/lib/debounce'
 
 export default class HeaderFilter extends React.Component {
   static propTypes = {
@@ -39,7 +38,7 @@ export default class HeaderFilter extends React.Component {
   }
 
   onFilterChange(filterValue) {
-    this.props.onFilterChange(new Filter({ name: this.props.column.name, value: filterValue }))
+    this.props.onFilterChange({ name: this.props.column.name, value: filterValue })
   }
 
   toggleFilter() {

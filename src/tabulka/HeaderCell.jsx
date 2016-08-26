@@ -13,6 +13,10 @@ export default class HeaderCell extends React.Component {
     onFilterChange: PropTypes.func.isRequired,
   };
 
+  static defaultProps = {
+    sort: {}
+  }
+
   render() {
     const { filter, sort, column, onFilterChange, onSortChange } = this.props
 

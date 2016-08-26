@@ -4,7 +4,6 @@ import React from 'react'
 import sd from 'skin-deep'
 
 import HeaderCell from '../HeaderCell'
-import { Sort } from '../../Sort'
 import { Column } from '../Column'
 
 describe('lib tabulka HeaderCell component', () => {
@@ -12,7 +11,7 @@ describe('lib tabulka HeaderCell component', () => {
   const shallowRender = props => sd.shallowRender(React.createElement(HeaderCell, props))
 
   it('should render', () => {
-    const tree = shallowRender({ column: new Column(), sort: new Sort() })
+    const tree = shallowRender({ column: new Column() })
     expect(tree.type).to.equal('div')
   })
 
