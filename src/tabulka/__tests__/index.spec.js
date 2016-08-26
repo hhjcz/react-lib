@@ -15,7 +15,7 @@ describe('tabulka index', () => {
     expect(Object.getPrototypeOf(components.Paginator)).to.equal(React.Component)
     expect(typeof components.Column).to.equal('function')
     expect(typeof components.columntValueTypes).to.equal('object')
-    expect(typeof components.actionCreatersFor).to.equal('function')
+    expect(typeof components.actionCreatorsFor).to.equal('function')
   })
 
 })
