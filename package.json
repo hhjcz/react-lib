@@ -1,6 +1,6 @@
 {
   "name": "@hhjcz/react-lib",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "HHj React reusable components and utils",
   "main": "lib/rest/index.js",
   "private": false,
@@ -39,19 +39,15 @@
   },
   "homepage": "https://github.com/hhjcz/react-lib#readme",
   "dependencies": {
-    "humps": "^1.1.0",
     "immutable": "^3.8.1",
     "lodash": "^4.15.0",
     "material-ui": "^0.15.4",
-    "query-string": "^4.2.3",
     "react": "^15.3.0",
     "react-autocomplete": "^1.2.1",
     "react-bootstrap": "^0.30.2",
     "react-dom": "^15.3.0",
-    "react-redux": "^4.4.5",
     "react-redux-toastr": "^3.6.0",
-    "react-tap-event-plugin": "^1.0.0",
-    "redux": "^3.5.2"
+    "react-tap-event-plugin": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
@@ -72,7 +68,6 @@
     "eslint-plugin-react": "^6.0.0",
     "less": "^2.7.1",
     "mocha": "^3.0.2",
-    "nock": "^8.0.0",
     "node-sass": "^3.8.0",
     "react-addons-test-utils": "^15.3.0",
     "sinon": "^1.17.5",
