@@ -16,6 +16,7 @@ describe('tabulka index', () => {
     expect(typeof components.Column).to.equal('function')
     expect(typeof components.columntValueTypes).to.equal('object')
     expect(typeof components.actionCreatorsFor).to.equal('function')
+    expect(typeof components.createReducer).to.equal('function')
   })
 
 })
