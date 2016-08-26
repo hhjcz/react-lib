@@ -1,7 +1,7 @@
 /** Created by hhj on 12/29/15. */
 import React, { PropTypes } from 'react'
 import { FormGroup, FormControl, InputGroup } from 'react-bootstrap'
-import debounce from '@hhjcz/js-lib/lib/debounce'
+import { debounce } from '@hhjcz/js-lib'
 import ColumnsControl from './ColumnsControl'
 
 export default class Footer extends React.Component {

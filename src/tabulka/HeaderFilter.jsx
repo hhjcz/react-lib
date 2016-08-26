@@ -1,7 +1,7 @@
 /** Created by hhj on 1/21/16. */
 import React, { PropTypes } from 'react'
 import { FormGroup, FormControl } from 'react-bootstrap'
-import debounce from '@hhjcz/js-lib/lib/debounce'
+import { debounce } from '@hhjcz/js-lib'
 
 export default class HeaderFilter extends React.Component {
   static propTypes = {
