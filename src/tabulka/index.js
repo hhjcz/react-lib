@@ -3,7 +3,7 @@ import Tabulka from './Tabulka'
 
 export Tabulka from './Tabulka'
 export Paginator from './Paginator'
-export actionCreatersFor from './actionCreatorsFor'
+export actionCreatorsFor from './actionCreatorsFor'
 export { Column, columntValueTypes } from './Column'
 
 export default Tabulka
