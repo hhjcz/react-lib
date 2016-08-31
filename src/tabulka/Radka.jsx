@@ -1,12 +1,12 @@
 /** Created by hhj on 12/30/15. */
 import React, { PropTypes } from 'react'
-import { Record, Map } from 'immutable'
+import { Record, List } from 'immutable'
 import Bunka from './Bunka'
 
 export default class Radka extends React.Component {
   static propTypes = {
     model: PropTypes.oneOfType([PropTypes.object, PropTypes.instanceOf(Record)]).isRequired,
-    columns: PropTypes.oneOfType([PropTypes.array, PropTypes.instanceOf(Map)]).isRequired,
+    columns: PropTypes.oneOfType([PropTypes.array, PropTypes.instanceOf(List)]).isRequired,
     pozice: PropTypes.number,
     highlighted: PropTypes.bool,
   };
