@@ -38,7 +38,7 @@ var config = {
     extensions: ['', '.js', '.jsx']
   },
   output: {
-    library: '@hhjcz/react-lib',
+    library: 'ReactLib',
     libraryTarget: 'umd'
   },
   plugins: [
