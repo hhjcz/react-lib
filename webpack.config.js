@@ -5,6 +5,10 @@ var prefixLoaders = 'css-loader!postcss-loader'
 
 var env = process.env.NODE_ENV
 var config = {
+  output: {
+    library: 'ReactLib',
+    libraryTarget: 'umd'
+  },
   module: {
     loaders: [
       {
@@ -36,10 +40,6 @@ var config = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
-  },
-  output: {
-    library: 'ReactLib',
-    libraryTarget: 'umd'
   },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
