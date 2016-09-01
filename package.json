@@ -6,7 +6,8 @@
   "private": false,
   "files": [
     "src",
-    "lib"
+    "lib",
+    "dist"
   ],
   "scripts": {
     "build": "babel src --copy-files --ignore spec.js,spec.jsx --out-dir lib",
