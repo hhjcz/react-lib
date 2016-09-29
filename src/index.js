@@ -4,6 +4,7 @@ import MyCheckbox from './MyCheckbox'
 import MyDraggable from './MyDraggable'
 import MyIcon from './MyIcon'
 import MyToggle from './MyToggle'
+import MyGridContainer from './MyGridContainer'
 import Tabulka from './tabulka/index'
 
 export {
@@ -12,5 +13,6 @@ export {
   MyDraggable,
   MyIcon,
   MyToggle,
+  MyGridContainer,
   Tabulka,
 }
