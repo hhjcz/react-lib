@@ -1,6 +1,6 @@
 {
   "name": "@hhjcz/react-lib",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "HHj React reusable components and utils",
   "main": "lib/index.js",
   "private": false,
