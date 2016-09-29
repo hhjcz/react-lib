@@ -17,7 +17,7 @@
     "prepublish": "npm run clean && npm run build && npm run build:umd && npm run build:umd:min",
     "build:dev": "babel src --copy-files --ignore spec.js,spec.jsx --watch --out-dir ../dohlestr-frontend/my_libs/react-lib",
     "build:dev2": "babel src --copy-files --ignore spec.js,spec.jsx --watch --out-dir ../dohlestr-frontend/node_modules/@hhjcz/react-lib/lib/",
-    "clean": "rm -fr lib/ || true",
+    "clean": "(rm -fr lib/ && rm -fr dist/) || true",
     "less": "lessc assets/*.less || true",
     "stylus": "stylus assets/*.styl || true",
     "sass": "node-sass assets/*.scss -o assets/ || true",
