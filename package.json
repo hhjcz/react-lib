@@ -12,8 +12,8 @@
   "scripts": {
     "build": "babel src --copy-files --ignore spec.js,spec.jsx --out-dir lib",
     "build:watch": "npm run build -- --watch",
-    "build:umd": "cross-env BABEL_ENV=commonjs NODE_ENV=development webpack src/index.js dist/redux-rest.js",
-    "build:umd:min": "cross-env BABEL_ENV=commonjs NODE_ENV=production webpack src/index.js dist/redux-rest.min.js",
+    "build:umd": "cross-env BABEL_ENV=commonjs NODE_ENV=development webpack src/index.js dist/react-lib.js",
+    "build:umd:min": "cross-env BABEL_ENV=commonjs NODE_ENV=production webpack src/index.js dist/react-lib.min.js",
     "prepublish": "npm run clean && npm run build && npm run build:umd && npm run build:umd:min",
     "build:dev": "babel src --copy-files --ignore spec.js,spec.jsx --watch --out-dir ../dohlestr-frontend/my_libs/react-lib",
     "build:dev2": "babel src --copy-files --ignore spec.js,spec.jsx --watch --out-dir ../dohlestr-frontend/node_modules/@hhjcz/react-lib/lib/",
