@@ -55,7 +55,7 @@
     "lodash": "^4.15.0",
     "material-ui": "^0.16.0",
     "react-autocomplete": "^1.2.0",
-    "react-bootstrap": "^0.30.0",
+    "react-bootstrap": "^0.30.6",
     "react-redux-toastr": "^3.6.0",
     "react-tap-event-plugin": "^1.0.0"
   },
