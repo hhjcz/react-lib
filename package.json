@@ -56,7 +56,7 @@
     "material-ui": "^0.16.0",
     "react-autocomplete": "^1.2.0",
     "react-bootstrap": "^0.30.0",
-    "react-redux-toastr": "^3.6.0",
+    "react-redux-toastr": "^4.0.0",
     "react-tap-event-plugin": "^1.0.0"
   },
   "devDependencies": {
