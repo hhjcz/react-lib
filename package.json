@@ -46,7 +46,7 @@
   "homepage": "https://github.com/hhjcz/react-lib#readme",
   "peerDependencies": {
     "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.3.2"
   },
   "dependencies": {
     "@hhjcz/js-lib": "^1.0.0",
