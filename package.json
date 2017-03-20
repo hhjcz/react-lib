@@ -81,7 +81,7 @@
     "eslint-plugin-react": "^6.0.0",
     "file-loader": "^0.9.0",
     "less": "^2.7.0",
-    "less-loader": "^2.2.0",
+    "less-loader": "^4.0.0",
     "mocha": "^3.0.0",
     "node-sass": "^3.8.0",
     "postcss-loader": "^1.0.0",
