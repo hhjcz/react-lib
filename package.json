@@ -91,7 +91,7 @@
     "sass-loader": "^4.0.0",
     "sinon": "^1.17.0",
     "sinon-chai": "^2.8.0",
-    "skin-deep": "^0.16.0",
+    "skin-deep": "^1.0.0",
     "stylus": "^0.54.0",
     "stylus-loader": "^2.3.0",
     "url-loader": "^0.5.0",
